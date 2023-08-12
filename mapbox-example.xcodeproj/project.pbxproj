@@ -1,0 +1,1101 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77E4A5522A876371005B1151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4A5512A876371005B1151 /* AppDelegate.swift */; };
+		77E4A5562A876371005B1151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4A5552A876371005B1151 /* ViewController.swift */; };
+		77E4A5D12A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5662A8763E9005B1151 /* Main.strings */; };
+		77E4A5D22A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5692A8763EA005B1151 /* Main.strings */; };
+		77E4A5D32A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A56C2A8763EA005B1151 /* Main.strings */; };
+		77E4A5D42A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A56F2A8763EA005B1151 /* Main.strings */; };
+		77E4A5D52A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5722A8763EA005B1151 /* Main.strings */; };
+		77E4A5D62A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5752A8763EA005B1151 /* Main.strings */; };
+		77E4A5D72A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5782A8763EA005B1151 /* Main.strings */; };
+		77E4A5DA2A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A57E2A8763EB005B1151 /* Main.strings */; };
+		77E4A5DB2A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5812A8763EB005B1151 /* Main.strings */; };
+		77E4A5DC2A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5842A8763EB005B1151 /* Main.strings */; };
+		77E4A5DD2A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5872A8763EB005B1151 /* Main.strings */; };
+		77E4A5DE2A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A58A2A8763EB005B1151 /* Main.strings */; };
+		77E4A5DF2A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A58D2A8763EB005B1151 /* Main.strings */; };
+		77E4A5E02A8763F0005B1151 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A58F2A8763EB005B1151 /* Localizable.strings */; };
+		77E4A5E12A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5922A8763EC005B1151 /* Main.strings */; };
+		77E4A5E22A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5952A8763EC005B1151 /* Main.strings */; };
+		77E4A5E32A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5982A8763EC005B1151 /* Main.strings */; };
+		77E4A5E52A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A59C2A8763EC005B1151 /* Main.strings */; };
+		77E4A5E62A8763F0005B1151 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A59E2A8763EC005B1151 /* Entitlements.plist */; };
+		77E4A5E72A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5A02A8763ED005B1151 /* Main.strings */; };
+		77E4A5E82A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5A32A8763ED005B1151 /* Main.strings */; };
+		77E4A5E92A8763F0005B1151 /* StyledFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4A5A62A8763ED005B1151 /* StyledFeature.swift */; };
+		77E4A5EA2A8763F0005B1151 /* ViewController+InstructionsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4A5A72A8763ED005B1151 /* ViewController+InstructionsCard.swift */; };
+		77E4A5ED2A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5AE2A8763EE005B1151 /* Main.strings */; };
+		77E4A5EE2A8763F0005B1151 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5B02A8763EE005B1151 /* Localizable.strings */; };
+		77E4A5EF2A8763F0005B1151 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5B22A8763EE005B1151 /* Localizable.stringsdict */; };
+		77E4A5F02A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5B52A8763EE005B1151 /* Main.strings */; };
+		77E4A5F12A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5B82A8763EE005B1151 /* Main.strings */; };
+		77E4A5F22A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5BB2A8763EE005B1151 /* Main.strings */; };
+		77E4A5F32A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5BE2A8763EE005B1151 /* Main.strings */; };
+		77E4A5F42A8763F0005B1151 /* CustomStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4A5C02A8763EE005B1151 /* CustomStyles.swift */; };
+		77E4A5F52A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5C22A8763EF005B1151 /* Main.strings */; };
+		77E4A5F62A8763F0005B1151 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4A5C42A8763EF005B1151 /* CustomViewController.swift */; };
+		77E4A5F72A8763F0005B1151 /* ViewController+StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4A5C52A8763EF005B1151 /* ViewController+StyleManager.swift */; };
+		77E4A5F82A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5C72A8763EF005B1151 /* Main.strings */; };
+		77E4A5F92A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5CA2A8763EF005B1151 /* Main.strings */; };
+		77E4A5FA2A8763F0005B1151 /* AppDelegate+CarPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4A5CC2A8763EF005B1151 /* AppDelegate+CarPlay.swift */; };
+		77E4A5FB2A8763F0005B1151 /* ViewController+FreeDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4A5CD2A8763F0005B1151 /* ViewController+FreeDrive.swift */; };
+		77E4A5FC2A8763F0005B1151 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5CF2A8763F0005B1151 /* Main.strings */; };
+		77E4A5FE2A8764A9005B1151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A5FD2A8764A8005B1151 /* Assets.xcassets */; };
+		77E4A6042A8764F1005B1151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A6002A8764F1005B1151 /* LaunchScreen.storyboard */; };
+		77E4A6052A8764F1005B1151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E4A6022A8764F1005B1151 /* Main.storyboard */; };
+		77E4A6082A8768D9005B1151 /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 77E4A6072A8768D9005B1151 /* MapboxNavigation */; };
+		77E4A60B2A876989005B1151 /* MapboxSearchUI in Frameworks */ = {isa = PBXBuildFile; productRef = 77E4A60A2A876989005B1151 /* MapboxSearchUI */; };
+		77E4A60E2A876A50005B1151 /* MapboxGeocoder in Frameworks */ = {isa = PBXBuildFile; productRef = 77E4A60D2A876A50005B1151 /* MapboxGeocoder */; };
+		77E4A6102A877B97005B1151 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4A60F2A877B97005B1151 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77E4A54E2A876371005B1151 /* mapbox-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mapbox-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E4A5512A876371005B1151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77E4A5552A876371005B1151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77E4A55F2A876373005B1151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E4A5672A8763E9005B1151 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Main.strings; sourceTree = "<group>"; };
+		77E4A56A2A8763EA005B1151 /* lt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lt; path = Main.strings; sourceTree = "<group>"; };
+		77E4A56D2A8763EA005B1151 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5702A8763EA005B1151 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5732A8763EA005B1151 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5762A8763EA005B1151 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5792A8763EA005B1151 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = Main.strings; sourceTree = "<group>"; };
+		77E4A57F2A8763EB005B1151 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5822A8763EB005B1151 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5852A8763EB005B1151 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5882A8763EB005B1151 /* yo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = yo; path = Main.strings; sourceTree = "<group>"; };
+		77E4A58B2A8763EB005B1151 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = Main.strings; sourceTree = "<group>"; };
+		77E4A58E2A8763EB005B1151 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5902A8763EB005B1151 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = Localizable.strings; sourceTree = "<group>"; };
+		77E4A5932A8763EC005B1151 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5962A8763EC005B1151 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5992A8763EC005B1151 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Main.strings; sourceTree = "<group>"; };
+		77E4A59D2A8763EC005B1151 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = Main.strings; sourceTree = "<group>"; };
+		77E4A59E2A8763EC005B1151 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		77E4A5A12A8763ED005B1151 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5A42A8763ED005B1151 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5A52A8763ED005B1151 /* Example-Swift-BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Example-Swift-BridgingHeader.h"; sourceTree = "<group>"; };
+		77E4A5A62A8763ED005B1151 /* StyledFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledFeature.swift; sourceTree = "<group>"; };
+		77E4A5A72A8763ED005B1151 /* ViewController+InstructionsCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+InstructionsCard.swift"; sourceTree = "<group>"; };
+		77E4A5AF2A8763EE005B1151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5B12A8763EE005B1151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		77E4A5B32A8763EE005B1151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = Localizable.stringsdict; sourceTree = "<group>"; };
+		77E4A5B62A8763EE005B1151 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5B92A8763EE005B1151 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5BC2A8763EE005B1151 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5BF2A8763EE005B1151 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5C02A8763EE005B1151 /* CustomStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyles.swift; sourceTree = "<group>"; };
+		77E4A5C32A8763EF005B1151 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5C42A8763EF005B1151 /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		77E4A5C52A8763EF005B1151 /* ViewController+StyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+StyleManager.swift"; sourceTree = "<group>"; };
+		77E4A5C82A8763EF005B1151 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5CB2A8763EF005B1151 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5CC2A8763EF005B1151 /* AppDelegate+CarPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+CarPlay.swift"; sourceTree = "<group>"; };
+		77E4A5CD2A8763F0005B1151 /* ViewController+FreeDrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+FreeDrive.swift"; sourceTree = "<group>"; };
+		77E4A5D02A8763F0005B1151 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Main.strings; sourceTree = "<group>"; };
+		77E4A5FD2A8764A8005B1151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77E4A6012A8764F1005B1151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77E4A6032A8764F1005B1151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		77E4A60F2A877B97005B1151 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E4A54B2A876371005B1151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E4A6082A8768D9005B1151 /* MapboxNavigation in Frameworks */,
+				77E4A60E2A876A50005B1151 /* MapboxGeocoder in Frameworks */,
+				77E4A60B2A876989005B1151 /* MapboxSearchUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77E4A5452A876371005B1151 = {
+			isa = PBXGroup;
+			children = (
+				77E4A5502A876371005B1151 /* mapbox-example */,
+				77E4A54F2A876371005B1151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77E4A54F2A876371005B1151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A54E2A876371005B1151 /* mapbox-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77E4A5502A876371005B1151 /* mapbox-example */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5FD2A8764A8005B1151 /* Assets.xcassets */,
+				77E4A59E2A8763EC005B1151 /* Entitlements.plist */,
+				77E4A5CC2A8763EF005B1151 /* AppDelegate+CarPlay.swift */,
+				77E4A5A62A8763ED005B1151 /* StyledFeature.swift */,
+				77E4A5FF2A8764F1005B1151 /* Base.lproj */,
+				77E4A5CD2A8763F0005B1151 /* ViewController+FreeDrive.swift */,
+				77E4A5A72A8763ED005B1151 /* ViewController+InstructionsCard.swift */,
+				77E4A5C52A8763EF005B1151 /* ViewController+StyleManager.swift */,
+				77E4A5512A876371005B1151 /* AppDelegate.swift */,
+				77E4A60F2A877B97005B1151 /* SceneDelegate.swift */,
+				77E4A5552A876371005B1151 /* ViewController.swift */,
+				77E4A5C02A8763EE005B1151 /* CustomStyles.swift */,
+				77E4A5C42A8763EF005B1151 /* CustomViewController.swift */,
+				77E4A5A52A8763ED005B1151 /* Example-Swift-BridgingHeader.h */,
+				77E4A55F2A876373005B1151 /* Info.plist */,
+				77E4A5BA2A8763EE005B1151 /* fr.lproj */,
+				77E4A5B42A8763EE005B1151 /* ar.lproj */,
+				77E4A5942A8763EC005B1151 /* bg.lproj */,
+				77E4A5912A8763EC005B1151 /* ca.lproj */,
+				77E4A5712A8763EA005B1151 /* da.lproj */,
+				77E4A56B2A8763EA005B1151 /* de.lproj */,
+				77E4A57D2A8763EB005B1151 /* el.lproj */,
+				77E4A5AD2A8763EE005B1151 /* en.lproj */,
+				77E4A5C62A8763EF005B1151 /* es-ES.lproj */,
+				77E4A5652A8763E9005B1151 /* es.lproj */,
+				77E4A5772A8763EA005B1151 /* he.lproj */,
+				77E4A5A22A8763ED005B1151 /* hu.lproj */,
+				77E4A59B2A8763EC005B1151 /* it.lproj */,
+				77E4A5802A8763EB005B1151 /* ja.lproj */,
+				77E4A5972A8763EC005B1151 /* ko.lproj */,
+				77E4A5682A8763EA005B1151 /* lt.lproj */,
+				77E4A5B72A8763EE005B1151 /* nl.lproj */,
+				77E4A5C92A8763EF005B1151 /* pt-BR.lproj */,
+				77E4A56E2A8763EA005B1151 /* pt-PT.lproj */,
+				77E4A5C12A8763EF005B1151 /* ru.lproj */,
+				77E4A5892A8763EB005B1151 /* sl.lproj */,
+				77E4A5BD2A8763EE005B1151 /* sv.lproj */,
+				77E4A5742A8763EA005B1151 /* tr.lproj */,
+				77E4A58C2A8763EB005B1151 /* uk.lproj */,
+				77E4A5832A8763EB005B1151 /* vi.lproj */,
+				77E4A5862A8763EB005B1151 /* yo.lproj */,
+				77E4A5CE2A8763F0005B1151 /* zh-Hans.lproj */,
+				77E4A59F2A8763ED005B1151 /* zh-Hant.lproj */,
+			);
+			path = "mapbox-example";
+			sourceTree = "<group>";
+		};
+		77E4A5652A8763E9005B1151 /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5662A8763E9005B1151 /* Main.strings */,
+			);
+			path = es.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5682A8763EA005B1151 /* lt.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5692A8763EA005B1151 /* Main.strings */,
+			);
+			path = lt.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A56B2A8763EA005B1151 /* de.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A56C2A8763EA005B1151 /* Main.strings */,
+			);
+			path = de.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A56E2A8763EA005B1151 /* pt-PT.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A56F2A8763EA005B1151 /* Main.strings */,
+			);
+			path = "pt-PT.lproj";
+			sourceTree = "<group>";
+		};
+		77E4A5712A8763EA005B1151 /* da.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5722A8763EA005B1151 /* Main.strings */,
+			);
+			path = da.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5742A8763EA005B1151 /* tr.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5752A8763EA005B1151 /* Main.strings */,
+			);
+			path = tr.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5772A8763EA005B1151 /* he.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5782A8763EA005B1151 /* Main.strings */,
+			);
+			path = he.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A57D2A8763EB005B1151 /* el.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A57E2A8763EB005B1151 /* Main.strings */,
+			);
+			path = el.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5802A8763EB005B1151 /* ja.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5812A8763EB005B1151 /* Main.strings */,
+			);
+			path = ja.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5832A8763EB005B1151 /* vi.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5842A8763EB005B1151 /* Main.strings */,
+			);
+			path = vi.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5862A8763EB005B1151 /* yo.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5872A8763EB005B1151 /* Main.strings */,
+			);
+			path = yo.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5892A8763EB005B1151 /* sl.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A58A2A8763EB005B1151 /* Main.strings */,
+			);
+			path = sl.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A58C2A8763EB005B1151 /* uk.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A58D2A8763EB005B1151 /* Main.strings */,
+				77E4A58F2A8763EB005B1151 /* Localizable.strings */,
+			);
+			path = uk.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5912A8763EC005B1151 /* ca.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5922A8763EC005B1151 /* Main.strings */,
+			);
+			path = ca.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5942A8763EC005B1151 /* bg.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5952A8763EC005B1151 /* Main.strings */,
+			);
+			path = bg.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5972A8763EC005B1151 /* ko.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5982A8763EC005B1151 /* Main.strings */,
+			);
+			path = ko.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A59B2A8763EC005B1151 /* it.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A59C2A8763EC005B1151 /* Main.strings */,
+			);
+			path = it.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A59F2A8763ED005B1151 /* zh-Hant.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5A02A8763ED005B1151 /* Main.strings */,
+			);
+			path = "zh-Hant.lproj";
+			sourceTree = "<group>";
+		};
+		77E4A5A22A8763ED005B1151 /* hu.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5A32A8763ED005B1151 /* Main.strings */,
+			);
+			path = hu.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5AD2A8763EE005B1151 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5AE2A8763EE005B1151 /* Main.strings */,
+				77E4A5B02A8763EE005B1151 /* Localizable.strings */,
+				77E4A5B22A8763EE005B1151 /* Localizable.stringsdict */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5B42A8763EE005B1151 /* ar.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5B52A8763EE005B1151 /* Main.strings */,
+			);
+			path = ar.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5B72A8763EE005B1151 /* nl.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5B82A8763EE005B1151 /* Main.strings */,
+			);
+			path = nl.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5BA2A8763EE005B1151 /* fr.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5BB2A8763EE005B1151 /* Main.strings */,
+			);
+			path = fr.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5BD2A8763EE005B1151 /* sv.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5BE2A8763EE005B1151 /* Main.strings */,
+			);
+			path = sv.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5C12A8763EF005B1151 /* ru.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5C22A8763EF005B1151 /* Main.strings */,
+			);
+			path = ru.lproj;
+			sourceTree = "<group>";
+		};
+		77E4A5C62A8763EF005B1151 /* es-ES.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5C72A8763EF005B1151 /* Main.strings */,
+			);
+			path = "es-ES.lproj";
+			sourceTree = "<group>";
+		};
+		77E4A5C92A8763EF005B1151 /* pt-BR.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5CA2A8763EF005B1151 /* Main.strings */,
+			);
+			path = "pt-BR.lproj";
+			sourceTree = "<group>";
+		};
+		77E4A5CE2A8763F0005B1151 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A5CF2A8763F0005B1151 /* Main.strings */,
+			);
+			path = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		77E4A5FF2A8764F1005B1151 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				77E4A6002A8764F1005B1151 /* LaunchScreen.storyboard */,
+				77E4A6022A8764F1005B1151 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77E4A54D2A876371005B1151 /* mapbox-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E4A5622A876373005B1151 /* Build configuration list for PBXNativeTarget "mapbox-example" */;
+			buildPhases = (
+				77E4A54A2A876371005B1151 /* Sources */,
+				77E4A54B2A876371005B1151 /* Frameworks */,
+				77E4A54C2A876371005B1151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mapbox-example";
+			packageProductDependencies = (
+				77E4A6072A8768D9005B1151 /* MapboxNavigation */,
+				77E4A60A2A876989005B1151 /* MapboxSearchUI */,
+				77E4A60D2A876A50005B1151 /* MapboxGeocoder */,
+			);
+			productName = "mapbox-example";
+			productReference = 77E4A54E2A876371005B1151 /* mapbox-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77E4A5462A876371005B1151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					77E4A54D2A876371005B1151 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 77E4A5492A876371005B1151 /* Build configuration list for PBXProject "mapbox-example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				lt,
+				de,
+				"pt-PT",
+				da,
+				tr,
+				he,
+				el,
+				ja,
+				vi,
+				yo,
+				sl,
+				uk,
+				ca,
+				bg,
+				ko,
+				it,
+				"zh-Hant",
+				hu,
+				ar,
+				nl,
+				fr,
+				sv,
+				ru,
+				"es-ES",
+				"pt-BR",
+				"zh-Hans",
+			);
+			mainGroup = 77E4A5452A876371005B1151;
+			packageReferences = (
+				77E4A6062A8768D9005B1151 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
+				77E4A6092A876989005B1151 /* XCRemoteSwiftPackageReference "search-ios" */,
+				77E4A60C2A876A50005B1151 /* XCRemoteSwiftPackageReference "MapboxGeocoder.swift" */,
+			);
+			productRefGroup = 77E4A54F2A876371005B1151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77E4A54D2A876371005B1151 /* mapbox-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77E4A54C2A876371005B1151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E4A5ED2A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5E62A8763F0005B1151 /* Entitlements.plist in Resources */,
+				77E4A5D62A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5F32A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5E72A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5D52A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5F52A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5F02A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5D12A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5F22A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5F12A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5D32A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5D42A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5F82A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A6052A8764F1005B1151 /* Main.storyboard in Resources */,
+				77E4A5E22A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5EF2A8763F0005B1151 /* Localizable.stringsdict in Resources */,
+				77E4A5DE2A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A6042A8764F1005B1151 /* LaunchScreen.storyboard in Resources */,
+				77E4A5FE2A8764A9005B1151 /* Assets.xcassets in Resources */,
+				77E4A5DD2A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5DF2A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5DA2A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5E02A8763F0005B1151 /* Localizable.strings in Resources */,
+				77E4A5DB2A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5DC2A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5D22A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5E52A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5EE2A8763F0005B1151 /* Localizable.strings in Resources */,
+				77E4A5E32A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5E82A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5D72A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5FC2A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5E12A8763F0005B1151 /* Main.strings in Resources */,
+				77E4A5F92A8763F0005B1151 /* Main.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E4A54A2A876371005B1151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E4A5F72A8763F0005B1151 /* ViewController+StyleManager.swift in Sources */,
+				77E4A5FB2A8763F0005B1151 /* ViewController+FreeDrive.swift in Sources */,
+				77E4A5562A876371005B1151 /* ViewController.swift in Sources */,
+				77E4A5EA2A8763F0005B1151 /* ViewController+InstructionsCard.swift in Sources */,
+				77E4A5522A876371005B1151 /* AppDelegate.swift in Sources */,
+				77E4A6102A877B97005B1151 /* SceneDelegate.swift in Sources */,
+				77E4A5E92A8763F0005B1151 /* StyledFeature.swift in Sources */,
+				77E4A5FA2A8763F0005B1151 /* AppDelegate+CarPlay.swift in Sources */,
+				77E4A5F42A8763F0005B1151 /* CustomStyles.swift in Sources */,
+				77E4A5F62A8763F0005B1151 /* CustomViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77E4A5662A8763E9005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5672A8763E9005B1151 /* es */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5692A8763EA005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A56A2A8763EA005B1151 /* lt */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A56C2A8763EA005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A56D2A8763EA005B1151 /* de */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A56F2A8763EA005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5702A8763EA005B1151 /* pt-PT */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5722A8763EA005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5732A8763EA005B1151 /* da */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5752A8763EA005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5762A8763EA005B1151 /* tr */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5782A8763EA005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5792A8763EA005B1151 /* he */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A57E2A8763EB005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A57F2A8763EB005B1151 /* el */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5812A8763EB005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5822A8763EB005B1151 /* ja */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5842A8763EB005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5852A8763EB005B1151 /* vi */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5872A8763EB005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5882A8763EB005B1151 /* yo */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A58A2A8763EB005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A58B2A8763EB005B1151 /* sl */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A58D2A8763EB005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A58E2A8763EB005B1151 /* uk */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A58F2A8763EB005B1151 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5902A8763EB005B1151 /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5922A8763EC005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5932A8763EC005B1151 /* ca */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5952A8763EC005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5962A8763EC005B1151 /* bg */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5982A8763EC005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5992A8763EC005B1151 /* ko */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A59C2A8763EC005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A59D2A8763EC005B1151 /* it */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5A02A8763ED005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5A12A8763ED005B1151 /* zh-Hant */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5A32A8763ED005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5A42A8763ED005B1151 /* hu */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5AE2A8763EE005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5AF2A8763EE005B1151 /* en */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5B02A8763EE005B1151 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5B12A8763EE005B1151 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5B22A8763EE005B1151 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5B32A8763EE005B1151 /* en */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		77E4A5B52A8763EE005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5B62A8763EE005B1151 /* ar */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5B82A8763EE005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5B92A8763EE005B1151 /* nl */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5BB2A8763EE005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5BC2A8763EE005B1151 /* fr */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5BE2A8763EE005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5BF2A8763EE005B1151 /* sv */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5C22A8763EF005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5C32A8763EF005B1151 /* ru */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5C72A8763EF005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5C82A8763EF005B1151 /* es-ES */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5CA2A8763EF005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5CB2A8763EF005B1151 /* pt-BR */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A5CF2A8763F0005B1151 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A5D02A8763F0005B1151 /* zh-Hans */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		77E4A6002A8764F1005B1151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A6012A8764F1005B1151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77E4A6022A8764F1005B1151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4A6032A8764F1005B1151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77E4A5602A876373005B1151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77E4A5612A876373005B1151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77E4A5632A876373005B1151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQXV2YB52C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mapbox-example/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Get user location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Get user location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Get user location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ade-studios.mapbox-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77E4A5642A876373005B1151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQXV2YB52C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mapbox-example/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Get user location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Get user location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Get user location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ade-studios.mapbox-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77E4A5492A876371005B1151 /* Build configuration list for PBXProject "mapbox-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E4A5602A876373005B1151 /* Debug */,
+				77E4A5612A876373005B1151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E4A5622A876373005B1151 /* Build configuration list for PBXNativeTarget "mapbox-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E4A5632A876373005B1151 /* Debug */,
+				77E4A5642A876373005B1151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		77E4A6062A8768D9005B1151 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.14.0;
+			};
+		};
+		77E4A6092A876989005B1151 /* XCRemoteSwiftPackageReference "search-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/search-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = "1.0.0-rc.7";
+			};
+		};
+		77E4A60C2A876A50005B1151 /* XCRemoteSwiftPackageReference "MapboxGeocoder.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/MapboxGeocoder.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		77E4A6072A8768D9005B1151 /* MapboxNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77E4A6062A8768D9005B1151 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigation;
+		};
+		77E4A60A2A876989005B1151 /* MapboxSearchUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77E4A6092A876989005B1151 /* XCRemoteSwiftPackageReference "search-ios" */;
+			productName = MapboxSearchUI;
+		};
+		77E4A60D2A876A50005B1151 /* MapboxGeocoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77E4A60C2A876A50005B1151 /* XCRemoteSwiftPackageReference "MapboxGeocoder.swift" */;
+			productName = MapboxGeocoder;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 77E4A5462A876371005B1151 /* Project object */;
+}
