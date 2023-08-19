@@ -31,7 +31,7 @@
 					<key>UISceneConfigurationName</key>
 					<string>ExampleAppConfiguration</string>
 					<key>UISceneDelegateClassName</key>
-					<string>$(EXECUTABLE_NAME).SceneDelegate</string>
+					<string>$(PRODUCT_MODULE_NAME).AppDelegate</string>
 					<key>UISceneStoryboardFile</key>
 					<string>Main</string>
 				</dict>
